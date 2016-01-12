@@ -3,14 +3,14 @@
  * @author Tom Flidr | tomflidr(at)gmail(dot)com
  * @version 0.1
  * @ussage
- *		var $elm = jDiet("#selector");
- *		
- *		// select result nodes by selector with nodeName, .class or both
- *		// this return only first ocurance of the element
- *		var $resultElms = $elm.find("a.class-string"); 
- *		
- *		// this return all ocurances in all $elm childNodes
- *		var $resultElms = $elm.find("a.class-string", true);
+ *	var $elm = jDiet("#selector");
+ *	
+ *	// select result nodes by selector with nodeName, .class or both
+ *	// this return only first ocurance of the element
+ *	var $resultElms = $elm.find("a.class-string"); 
+ *	
+ *	// this return all ocurances in all $elm childNodes
+ *	var $resultElms = $elm.find("a.class-string", true);
  */
 jDiet['fn']['find'] = function (selector, onlyOneOccurrence)
 {
